@@ -1,0 +1,31 @@
+{
+  "name": "finalca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbyvin/FinalCA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbyvin/FinalCA/issues"
+  },
+  "homepage": "https://github.com/barbyvin/FinalCA#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.7.4",
+    "@wdio/devtools-service": "^7.7.4",
+    "@wdio/dot-reporter": "^7.7.3",
+    "@wdio/local-runner": "^7.7.4",
+    "@wdio/mocha-framework": "^7.7.4",
+    "@wdio/selenium-standalone-service": "^7.7.4",
+    "@wdio/spec-reporter": "^7.7.3"
+  },
+  "dependencies": {
+    "chromedriver": "^91.0.1"
+  }
+}
