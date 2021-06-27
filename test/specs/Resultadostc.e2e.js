@@ -24,10 +24,12 @@ describe('Resultados', () => {
         
     });
     
-
-
-
-
+    it('mostrar mapa', async () => {
+        await resultados.clickmapa;
+        expect(resultados.validacion).toBeDisplayed()
+        await resultados.clicklista;
+        expect(resultados.validacion).not.toBeDisplayed()
+    });
 
 
 
